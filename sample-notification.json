@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "topic": "MARKETPLACE_ACCOUNT_DELETION",
+    "schemaVersion": "1.0",
+    "deprecated": false
+  },
+  "notification": {
+    "notificationId": "550e8400-e29b-41d4-a716-446655440000",
+    "eventDate": "2026-01-19T10:30:00.000Z",
+    "publishDate": "2026-01-19T10:30:01.000Z",
+    "publishAttemptCount": 1,
+    "data": {
+      "username": "testuser123",
+      "userId": "U1234567890",
+      "eiasToken": "nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4GhDpOBoQ+Tg6ED94ahAg**"
+    }
+  }
+}

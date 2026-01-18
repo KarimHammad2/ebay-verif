@@ -1,0 +1,13 @@
+# Don't deploy these files to Vercel
+node_modules
+.env
+.env.local
+.env.*.local
+*.log
+.DS_Store
+README.md
+vercel-README.md
+DEPLOY.md
+test-challenge.js
+sample-notification.json
+server.js
