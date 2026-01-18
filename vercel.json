@@ -19,6 +19,6 @@
   "env": {
     "NODE_ENV": "production",
     "VERIFICATION_TOKEN": "ebay_verification_token_2026_n8n_prod",
-    "ENDPOINT_URL": "https://ebay-veri.vercel.app/"
+    "ENDPOINT_URL": "https://ebay-veri.vercel.app/api/webhook-ebay"
   }
 }

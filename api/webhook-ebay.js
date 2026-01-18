@@ -2,7 +2,7 @@ const crypto = require('crypto');
 
 // Configuration - UPDATE THESE VALUES
 const VERIFICATION_TOKEN = process.env.VERIFICATION_TOKEN || 'ebay_verification_token_2026_n8n_prod';
-const ENDPOINT_URL = process.env.ENDPOINT_URL || 'https://your-project.vercel.app/api/webhook-ebay';
+const ENDPOINT_URL = process.env.ENDPOINT_URL || 'https://ebay-veri.vercel.app/api/webhook-ebay';
 
 /**
  * Vercel Serverless Function for eBay Marketplace Account Deletion Webhook
