@@ -8,11 +8,17 @@
   ],
   "routes": [
     {
+      "src": "/",
+      "dest": "/api/index"
+    },
+    {
       "src": "/api/(.*)",
       "dest": "/api/$1"
     }
   ],
   "env": {
-    "NODE_ENV": "production"
+    "NODE_ENV": "production",
+    "VERIFICATION_TOKEN": "ebay_verification_token_2026_n8n_prod",
+    "ENDPOINT_URL": "https://ebay-veri.vercel.app/"
   }
 }
